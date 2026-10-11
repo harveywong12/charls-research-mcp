@@ -1,0 +1,510 @@
+[
+  {
+    "term": "抑郁",
+    "english": [
+      "depress",
+      "CESD",
+      "felt sad"
+    ]
+  },
+  {
+    "term": "认知",
+    "english": [
+      "cognit",
+      "memory",
+      "serial 7",
+      "orientation"
+    ]
+  },
+  {
+    "term": "记忆",
+    "english": [
+      "memory",
+      "recall"
+    ]
+  },
+  {
+    "term": "高血压",
+    "english": [
+      "hypertension",
+      "high blood pressure"
+    ]
+  },
+  {
+    "term": "血压",
+    "english": [
+      "blood pressure",
+      "systolic",
+      "diastolic"
+    ]
+  },
+  {
+    "term": "糖尿病",
+    "english": [
+      "diabetes",
+      "diabetic"
+    ]
+  },
+  {
+    "term": "血糖",
+    "english": [
+      "glucose",
+      "blood sugar",
+      "hba1c",
+      "glycated"
+    ]
+  },
+  {
+    "term": "肾功能",
+    "english": [
+      "creatinine",
+      "cystatin",
+      "kidney"
+    ],
+    "weak": [
+      "kidney"
+    ]
+  },
+  {
+    "term": "肾脏疾病",
+    "english": [
+      "kidney disease",
+      "kidney problem"
+    ]
+  },
+  {
+    "term": "血脂",
+    "english": [
+      "cholesterol",
+      "triglyceride",
+      "HDL",
+      "LDL"
+    ]
+  },
+  {
+    "term": "炎症",
+    "english": [
+      "C-reactive",
+      "CRP"
+    ]
+  },
+  {
+    "term": "贫血",
+    "english": [
+      "hemoglobin",
+      "anaemia",
+      "anemia"
+    ]
+  },
+  {
+    "term": "心血管",
+    "english": [
+      "heart",
+      "stroke",
+      "cardiovascular"
+    ]
+  },
+  {
+    "term": "脑卒中",
+    "english": [
+      "stroke"
+    ]
+  },
+  {
+    "term": "慢性病",
+    "english": [
+      "chronic",
+      "disease"
+    ],
+    "weak": [
+      "disease"
+    ]
+  },
+  {
+    "term": "多病共存",
+    "english": [
+      "disease",
+      "condition"
+    ],
+    "weak": [
+      "disease",
+      "condition"
+    ]
+  },
+  {
+    "term": "日常生活能力",
+    "english": [
+      "activities of daily living",
+      "ADL",
+      "dressing",
+      "bathing"
+    ]
+  },
+  {
+    "term": "ADL",
+    "english": [
+      "dressing",
+      "bathing",
+      "eating",
+      "toileting"
+    ]
+  },
+  {
+    "term": "IADL",
+    "english": [
+      "instrumental",
+      "shopping",
+      "managing money",
+      "preparing meals"
+    ]
+  },
+  {
+    "term": "功能受限",
+    "english": [
+      "difficulty",
+      "limitation",
+      "functioning"
+    ],
+    "weak": [
+      "functioning",
+      "limitation"
+    ]
+  },
+  {
+    "term": "身体活动",
+    "english": [
+      "physical activity",
+      "vigorous",
+      "moderate",
+      "walking"
+    ]
+  },
+  {
+    "term": "睡眠",
+    "english": [
+      "sleep",
+      "nap"
+    ]
+  },
+  {
+    "term": "吸烟",
+    "english": [
+      "smok",
+      "cigarette",
+      "tobacco"
+    ]
+  },
+  {
+    "term": "饮酒",
+    "english": [
+      "alcohol",
+      "drink",
+      "liquor",
+      "beer"
+    ]
+  },
+  {
+    "term": "体质指数",
+    "english": [
+      "body mass index",
+      "BMI",
+      "weight",
+      "height"
+    ],
+    "weak": [
+      "weight",
+      "height"
+    ]
+  },
+  {
+    "term": "BMI",
+    "english": [
+      "body mass index",
+      "weight",
+      "height"
+    ],
+    "weak": [
+      "weight",
+      "height"
+    ]
+  },
+  {
+    "term": "肥胖",
+    "english": [
+      "obesity",
+      "BMI",
+      "waist",
+      "weight"
+    ],
+    "weak": [
+      "weight"
+    ]
+  },
+  {
+    "term": "握力",
+    "english": [
+      "grip"
+    ]
+  },
+  {
+    "term": "步速",
+    "english": [
+      "walking speed",
+      "walk time",
+      "walk test"
+    ]
+  },
+  {
+    "term": "跌倒",
+    "english": [
+      "fall",
+      "fallen"
+    ]
+  },
+  {
+    "term": "疼痛",
+    "english": [
+      "pain"
+    ]
+  },
+  {
+    "term": "自评健康",
+    "english": [
+      "self-reported health",
+      "self-rated health",
+      "health status"
+    ],
+    "weak": [
+      "health status"
+    ]
+  },
+  {
+    "term": "孤独",
+    "english": [
+      "lonely",
+      "loneliness"
+    ]
+  },
+  {
+    "term": "社会参与",
+    "english": [
+      "social activit",
+      "interact",
+      "club",
+      "volunteer"
+    ]
+  },
+  {
+    "term": "社会支持",
+    "english": [
+      "support",
+      "contact",
+      "transfer"
+    ],
+    "weak": [
+      "support"
+    ]
+  },
+  {
+    "term": "婚姻",
+    "english": [
+      "marital",
+      "married",
+      "divorced",
+      "widowed"
+    ]
+  },
+  {
+    "term": "教育",
+    "english": [
+      "education",
+      "school",
+      "literacy"
+    ]
+  },
+  {
+    "term": "收入",
+    "english": [
+      "income",
+      "earnings"
+    ]
+  },
+  {
+    "term": "财富",
+    "english": [
+      "wealth",
+      "asset",
+      "saving"
+    ]
+  },
+  {
+    "term": "医疗利用",
+    "english": [
+      "outpatient",
+      "inpatient",
+      "hospital",
+      "visit"
+    ],
+    "weak": [
+      "visit"
+    ]
+  },
+  {
+    "term": "医保",
+    "english": [
+      "health insurance",
+      "medical insurance"
+    ]
+  },
+  {
+    "term": "退休",
+    "english": [
+      "retire",
+      "pension"
+    ]
+  },
+  {
+    "term": "照护",
+    "english": [
+      "care",
+      "help",
+      "assistance"
+    ],
+    "weak": [
+      "care",
+      "help"
+    ]
+  },
+  {
+    "term": "死亡",
+    "english": [
+      "death",
+      "died",
+      "deceased",
+      "mortality"
+    ]
+  },
+  {
+    "term": "新冠",
+    "english": [
+      "COVID",
+      "coronavirus"
+    ]
+  },
+  {
+    "term": "城乡",
+    "english": [
+      "urban",
+      "rural",
+      "hukou"
+    ]
+  },
+  {
+    "term": "年龄",
+    "english": [
+      "age",
+      "birth"
+    ],
+    "weak": [
+      "age"
+    ]
+  },
+  {
+    "term": "性别",
+    "english": [
+      "gender",
+      "sex"
+    ]
+  },
+  {
+    "term": "权重",
+    "english": [
+      "weight"
+    ],
+    "weak": [
+      "weight"
+    ]
+  },
+  {
+    "term": "CESD",
+    "english": [
+      "depress",
+      "CESD"
+    ]
+  },
+  {
+    "term": "肌酐",
+    "english": [
+      "creatinine"
+    ]
+  },
+  {
+    "term": "胱抑素C",
+    "english": [
+      "cystatin C",
+      "cystatin",
+      "cystatinc",
+      "bl_cysc"
+    ]
+  },
+  {
+    "term": "糖化血红蛋白",
+    "english": [
+      "HbA1c",
+      "glycated hemoglobin",
+      "newhba1c",
+      "bl_hbalc"
+    ]
+  },
+  {
+    "term": "甘油三酯",
+    "english": [
+      "triglyceride",
+      "newtg",
+      "bl_tg"
+    ]
+  },
+  {
+    "term": "尿酸",
+    "english": [
+      "uric acid",
+      "newua",
+      "bl_ua"
+    ]
+  },
+  {
+    "term": "尿素氮",
+    "english": [
+      "blood urea nitrogen",
+      "BUN",
+      "newbun",
+      "bl_bun"
+    ]
+  },
+  {
+    "term": "TG",
+    "english": [
+      "triglyceride",
+      "triglycerides"
+    ]
+  },
+  {
+    "term": "TC",
+    "english": [
+      "total cholesterol"
+    ]
+  },
+  {
+    "term": "BP",
+    "english": [
+      "blood pressure"
+    ]
+  },
+  {
+    "term": "PLT",
+    "english": [
+      "platelet",
+      "platelets"
+    ]
+  }
+]

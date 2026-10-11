@@ -1,0 +1,79 @@
+[
+  {
+    "term": "血压",
+    "english": [
+      "blood pressure"
+    ],
+    "ambiguous": true
+  },
+  {
+    "term": "高血压",
+    "english": [
+      "high blood pressure"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "糖尿病",
+    "english": [
+      "diabetes"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "肾脏疾病",
+    "english": [
+      "kidney disease"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "抑郁",
+    "english": [
+      "CESD"
+    ],
+    "ambiguous": true
+  },
+  {
+    "term": "日常生活能力",
+    "english": [
+      "activities of daily living"
+    ],
+    "ambiguous": true
+  },
+  {
+    "term": "体质指数",
+    "english": [
+      "Body Mass Index"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "记忆",
+    "english": [
+      "Self-reported Memory"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "ADL",
+    "english": [
+      "activities of daily living"
+    ],
+    "ambiguous": true
+  },
+  {
+    "term": "BMI",
+    "english": [
+      "Body Mass Index"
+    ],
+    "ambiguous": false
+  },
+  {
+    "term": "CESD",
+    "english": [
+      "CESD score"
+    ],
+    "ambiguous": true
+  }
+]

@@ -1,0 +1,6 @@
+# Placeholder paths only; run scripts/configure_clients.py for local templates.
+[mcp_servers.charls_codebook]
+command = "/absolute/project/.venv/bin/python"
+args = ["-u", "-m", "charls_codebook_mcp.server", "--profile", "research", "--catalog", "/absolute/private/research-catalog.sqlite", "--aliases", "/absolute/project/config/research-aliases.json"]
+startup_timeout_sec = 30
+tool_timeout_sec = 30

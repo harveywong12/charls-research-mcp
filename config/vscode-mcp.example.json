@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "charls_codebook": {
+      "type": "stdio",
+      "command": "/absolute/project/.venv/bin/python",
+      "args": [
+        "-u",
+        "-m",
+        "charls_codebook_mcp.server",
+        "--profile",
+        "research",
+        "--catalog",
+        "/absolute/private/research-catalog.sqlite",
+        "--aliases",
+        "/absolute/project/config/research-aliases.json"
+      ]
+    }
+  }
+}

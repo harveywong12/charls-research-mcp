@@ -1,0 +1,82 @@
+{
+  "_readme": "完全虚构的 schema 2 格式示例，不是 CHARLS 事实。必须用获准资料中的实际变量、模块、年度、SHA-256、唯一锚点及逐字段核实结果替换；此文件不可直接导入真实目录库。",
+  "schema_version": 2,
+  "facts": [
+    {
+      "year": 2015,
+      "namespace": "raw",
+      "module": "synthetic_example",
+      "variable_name": "example_metric",
+      "construct": "虚构示例指标",
+      "construct_key": "synthetic_metric",
+      "search_terms": "虚构 示例 synthetic example",
+      "unit": null,
+      "review_status": "reviewed_against_source_and_metadata",
+      "sources": [
+        {
+          "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "page": 1,
+          "anchor": "Fictional example_metric source passage."
+        }
+      ],
+      "evidence_fields": {
+        "construct": {
+          "value": "虚构示例指标",
+          "status": "document_explicit",
+          "source_indexes": [
+            0
+          ],
+          "reason": "仅演示字段指向来源的格式；实际使用须核对自己的原文"
+        },
+        "measurement_type": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "unit": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "coding": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "recall_period": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "eligible_population": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "construction": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "timing": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        },
+        "sampling": {
+          "value": null,
+          "status": "unconfirmed",
+          "source_indexes": [],
+          "reason": "虚构格式示例；本字段尚无来源依据"
+        }
+      }
+    }
+  ]
+}
