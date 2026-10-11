@@ -1,0 +1,41 @@
+{
+  "implementation": "2026-10-11.research-2",
+  "date": "2026-10-11",
+  "profiles": {
+    "research": 13,
+    "compat": 17,
+    "legacy": 4
+  },
+  "validation_scope": "Functional software acceptance, metadata and source-anchor consistency; not exhaustive scientific adjudication",
+  "automated_tests": {
+    "status": "PASS",
+    "passed": 111
+  },
+  "stdio_integration": {
+    "status": "PASS",
+    "research_calls": 34,
+    "compat_calls": 38,
+    "legacy_calls": 117,
+    "focused_research_calls": 40
+  },
+  "client_templates": {
+    "status": "PASS",
+    "templates": 4
+  },
+  "zoo_code_integration": {
+    "status": "PASS",
+    "actual_mcp_calls": 10
+  },
+  "private_source_checks": {
+    "status": "PASS",
+    "checks": 372,
+    "reviewed_fact_records": 90,
+    "datasets": 127,
+    "variable_names": 54109,
+    "variable_labels": 54109,
+    "metadata_mismatches": 0,
+    "pilot_coding_parser_limitations": 2
+  },
+  "private_assets": "Raw data, documents, derived indexes, real-source gold, captures, full reports and machine settings excluded from publication",
+  "history_policy": "Published from a fresh source-only repository; no previous repository ancestors"
+}
