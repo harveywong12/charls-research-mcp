@@ -1,0 +1,8 @@
+{
+  "version": "D",
+  "pdf_url": "https://charls.charlsdata.com/Public/ashelf/public/uploads/document/harmonized_charls/application/Harmonized_CHARLS_D.pdf",
+  "max_attempts": 3,
+  "timeout_seconds": 20,
+  "attempt_deadline_seconds": 60,
+  "max_bytes": 104857600
+}
