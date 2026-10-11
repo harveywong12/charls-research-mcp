@@ -1,0 +1,35 @@
+{
+  "_readme": "TEMPLATE ONLY - placeholders, no real assertions. Copy to tests/gold_research.json (which is Git-ignored) after YOUR build, read the actual values from your own database, and replace every <...> placeholder. validate --catalog reads three top-level keys: catalogue_build_id (must equal meta.build_id), cases (assertions; equals uses dotted paths, contains matches anywhere in the JSON text), and optional build_inputs (compared by sha256 only). See docs/RESEARCH.md and docs/VALIDATION.md.",
+  "basis": "Pinned to the catalogue build_id below. Replace this paragraph with your own provenance note: which inputs, which builder revision, what the pin is meant to detect. These cases are re-derived from the same database, so they detect drift and regression, not ground truth.",
+  "catalogue_build_id": "<cat_...: copy meta.build_id from your built catalogue>",
+  "generated_from": "data/processed/<your-catalogue>.sqlite",
+  "build_inputs": {
+    "<input-name-as-recorded-in-meta.build_inputs>": {
+      "name": "<basename of the private input file>",
+      "sha256": "<sha256 of that file>"
+    }
+  },
+  "cases": [
+    {
+      "id": "<unique id, e.g. R01>",
+      "method": "<tool name, e.g. get_research_overview>",
+      "args": {},
+      "status": "<expected status, e.g. ok; omit to skip the status check>",
+      "equals": {
+        "<dotted path, e.g. data.participant_rows_indexed>": "<expected scalar value>"
+      },
+      "contains": ["<substring expected anywhere in the response JSON>"]
+    },
+    {
+      "id": "<unique id, e.g. R02>",
+      "_why": "search_all_codebooks returns match_quality per hit (token_exact > substring_case_sensitive > substring_case_insensitive) and sorts by it before document kind. Pin one short ASCII token that also occurs inside longer English words, so the assertion fails if ranking regresses to plain kind/path order.",
+      "method": "search_all_codebooks",
+      "args": {"query": "<uppercase short token, e.g. GHB>", "limit": 3},
+      "status": "ok",
+      "equals": {
+        "data.results.0.match_quality": "token_exact",
+        "data.results.0.document_id": "<document_id of the token-bearing document in YOUR build>"
+      }
+    }
+  ]
+}
