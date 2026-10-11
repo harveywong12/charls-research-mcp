@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling==1.30.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "charls-codebook-mcp"
+version = "0.1.0"
+description = "Local evidence-first CHARLS research metadata and document MCP"
+requires-python = ">=3.11,<3.15"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["mcp==2.3.0", "pdfplumber==0.11.10"]
+
+[project.scripts]
+charls-codebook = "charls_codebook_mcp.cli:main"
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "psutil==7.2.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/charls_codebook_mcp"]

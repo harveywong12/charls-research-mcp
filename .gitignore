@@ -1,0 +1,49 @@
+# Local documents, full text, databases and captures stay on this machine.
+data/
+reports/
+.venv/
+.cache/
+.codex/config.toml
+config/codex-config.toml
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.pyc
+*.sqlite*
+*.pdf
+*.zip
+.DS_Store
+.env
+.env.*
+
+# Generated client configurations contain machine-specific paths.
+config/generated/
+.cursor/mcp.json
+.vscode/mcp.json
+
+# Research assets, local backups, and extracted dictionaries are private.
+work/
+outputs/
+*.rar
+*.dta
+*.sav
+*.parquet
+*.feather
+*.pkl
+*.doc
+*.docx
+# Private evidence, download ledgers and source-derived acceptance fixtures.
+*download-manifest*.json
+*supplementary-documentation*.json
+*reviewed-variable-evidence*.json
+tests/gold_research.json
+
+# Real-source gold is private, including legacy codebook excerpts.
+tests/gold.json
+docs/expansion-gold-extra.json
+docs/EXPANSION-GOLD-EXTRA.md
+docs/L2-BLIND-REVIEW.md
+docs/VARIABLE-MAP-I4.md
+docs/LITERATURE-CHEN2019.md
+docs/HUMAN-REVIEW-CHECKLIST.md
+docs/client-configs-validation.json
